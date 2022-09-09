@@ -1,0 +1,8 @@
+.agents {
+  display: grid;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  
+}

@@ -1,0 +1,64 @@
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #11182750;
+  --bg-opacity: 0.5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  min-height: fit-content;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  justify-content: center;
+  border-radius: 1rem;
+  border-width: 1px;
+  border-color: #f9fafb;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 40%;
+  min-width: fit-content;
+}
+
+.button-exit{
+  padding-top: 0;
+  padding-bottom: 0; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; 
+  margin: 0; 
+  background-color: #EF4444; 
+  transition-property: all; 
+  align-self: flex-end; 
+  height: 2rem; 
+}
+
+.button-exit:hover{
+  transition-property: all;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, form label{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif ;
+}
+
+form input,textarea{
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0.3rem
+
+}
